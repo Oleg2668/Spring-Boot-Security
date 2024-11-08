@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<resultset statement="SELECT * FROM users
+LIMIT 0, 1000
+"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<row>
+		<field name="id">1</field>
+		<field name="phone">098 956  7689</field>
+		<field name="email">kamala@yahoo.com</field>
+		<field name="name">Haris Kamala</field>
+		<field name="password">$2a$10$kYFuTR42lsH4gTgcq7IEDeQpZrMrq2i48Br9mQyN9tPE1GH7NP/fS</field>
+	</row>
+
+	<row>
+		<field name="id">2</field>
+		<field name="phone">096 348 7802</field>
+		<field name="email">donald@yahoo.com</field>
+		<field name="name">Trump Donald</field>
+		<field name="password">$2a$10$fL./k1N6cHR8w6PWBMwmXeXcghRG6a3eTOaq56qwjgXgCzezME5WW</field>
+	</row>
+
+	<row>
+		<field name="id">3</field>
+		<field name="phone">077 798 0001</field>
+		<field name="email">boris@yahoo.com</field>
+		<field name="name">Jonson Boris</field>
+		<field name="password">$2a$10$JUxpob22DRhyNvWLY2B6GuqIQbf2XMYF3C2AwUZKgFNZOOOq6dWuy</field>
+	</row>
+</resultset>
